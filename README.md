@@ -4,75 +4,28 @@
 
 An application that mimics a physical shopping experience for the users through the use of Augmented Reality and Computer Vision.
 
-## How to Use 
 
-**Step 1:**
-
-Clone this repo by using the code below:
-
-```
-git clone https://github.com/aadilkhalifa/virtual-try-on.git
-```
-
-**Step 2:**
-
-Go to project root and execute the following command in console to get the required dependencies: 
-
-```
-flutter pub get 
-```
-
-**Step 2:**
-
-Run the app using the command: 
-
-```
-flutter run 
-```
-
-## Features
-
-The app consists of 2 modules, the vitual footware try-on module and the foot size measurement module.
-
-### Virtual Footware Try-on
-
-This module provides the user with an AR experience to try-on the shoe. The AR module is linked to snapchat making user of the AR shoe filters that Snapchat provides. 
-
-### Foot Size Measurement 
-
-This module provides the user with the ability to measure his/her foot through the app. The user is asked to place the foot on an A4 size paper with the bottom of the foot aligned with the bottom of the sheet and take a picture of the foot along with the paper. A Flask server is hosted online which is where the image captured is sent. The server processes the image and calculates the size which is sent to the app and is displayed to the user.
-
-## Tools & Libraries Used
-
-* [Flutter](https://flutter.dev/) (version 2.8)
-* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
-* [Dio](https://github.com/flutterchina/dio)
-* [http](https://github.com/dart-lang/http)
-* [url_launcher](https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher) (to launch snapchat AR filter)
-* [camera](https://github.com/flutter/plugins/tree/main/packages/camera/camera) (To make use of mobile camera to capture image)
-* [Lens studio](https://lensstudio.snapchat.com/)
-
-## To run server locally
-The server has been hosted online and the app sends a request to the remote server. To run the server locally for testing purposes the following can be done.
-
-cd into the server directory
-
-```
-cd server
-```
-
-Run the Flask server
-
-```
-flask run
-```
-This should start the server at localhost.
 
 ## Screenshots
-<img src="https://github.com/aadilkhalifa/virtual-try-on/blob/main/screenshots/ss1.jpeg?raw=true" width="256"/>
-<img src="https://github.com/aadilkhalifa/virtual-try-on/blob/main/screenshots/ss2.jpeg?raw=true" width="256"/>
-<img src="https://github.com/aadilkhalifa/virtual-try-on/blob/main/screenshots/ss3.jpeg?raw=true" width="256"/>
-<img src="https://github.com/aadilkhalifa/virtual-try-on/blob/main/screenshots/ss4.jpeg?raw=true" width="256"/>
+![Screenshot 2023-09-13 162017](https://github.com/KazunguDev/virtual-try-on/assets/88532016/60d519cd-865e-49ab-bb44-c40b1645b580)
 
-## References
-- https://github.com/wildoctopus/FeetAndShoeMeasurement
+![Screenshot 2023-09-13 162034](https://github.com/KazunguDev/virtual-try-on/assets/88532016/dc67296e-5962-4c7c-b7d5-b00c4b071658)
+
+![Screenshot 2023-09-13 162055](https://github.com/KazunguDev/virtual-try-on/assets/88532016/6545683e-b1b3-4602-ab7a-2dac85b9872d)
+
+![Screenshot 2023-09-13 162105](https://github.com/KazunguDev/virtual-try-on/assets/88532016/99447ced-8192-4a58-8dc7-bd1f6482ba47)
+
+![Screenshot 2023-09-13 162158](https://github.com/KazunguDev/virtual-try-on/assets/88532016/611f26b9-452b-465c-a894-ffa17064ef4e)
+
+![Screenshot 2023-09-13 162315](https://github.com/KazunguDev/virtual-try-on/assets/88532016/3b511393-4368-45dd-8ae5-20be19cd39d0)
+
+![Screenshot 2023-09-13 162330](https://github.com/KazunguDev/virtual-try-on/assets/88532016/4e6a9fb1-1536-4bec-8b84-961603202099)
+
+![Screenshot 2023-09-13 162339](https://github.com/KazunguDev/virtual-try-on/assets/88532016/910d19fe-89f3-4839-9494-5891ad91bf5b)
+
+![Screenshot 2023-09-13 162411](https://github.com/KazunguDev/virtual-try-on/assets/88532016/71641f08-b1aa-41a9-8a49-155d6586bdf0)
+
+![Screenshot 2023-09-13 162441](https://github.com/KazunguDev/virtual-try-on/assets/88532016/ced9e843-eda1-49e0-8e91-66e3db35fd2b)
+
+
+![Screenshot 2023-09-13 162429](https://github.com/KazunguDev/virtual-try-on/assets/88532016/7d9a327a-30db-4d8c-8f6f-16acbd2cfc07)
